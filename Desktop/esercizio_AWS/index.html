@@ -1,0 +1,55 @@
+index.html:
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Benvenuti nel mio sito</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Chi Siamo</a></li>
+                <li><a href="#contact">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Benvenuti nel nostro sito web!</h1>
+            <p>Questo è un esempio di sito statico creato per imparare a gestire HTML e CSS.</p>
+            <img src="graphic.jpg" alt="Immagine di esempio" class="featured-image">
+        </section>
+
+        <section id="about">
+            <h2>Chi Siamo</h2>
+            <p>Siamo un team di sviluppatori web appassionati di creare esperienze utente moderne e responsive.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contattaci</h2>
+            <form action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Messaggio:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Invia</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sito Web Esempio. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
